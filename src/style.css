@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .skraa_events {
+    clip-path: polygon(100% 0, 100% 60%, 0 100%, 0 100%, 0 0);
+  }
+
+  .skraa {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 100%);
+  }
+
+  .skraa_02 {
+    clip-path: polygon(0 0, 100% 100%, 100% 100%, 0 100%);
+  }
+
+  .skraa_03 {
+    clip-path: polygon(0 0, 0 0, 20% 100%, 0% 100%);
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "Neuton";
+    font-weight: 400;
+    src: url("/fonts/neuton_regular_400.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "Limelight";
+    font-weight: 400;
+    src: url("/fonts/limelight_regular_400.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "FrederickaTheGreat";
+    src: url("/fonts/fredericka_the_great_regular.woff2") format("woff2");
+  }
+}
+
+p,
+li {
+  font-family: "Neuton", sans-serif;
+  font-size: 1.25rem;
+}
+
+h1 {
+  font-family: "FrederickaTheGreat";
+}
+
+h2,
+h3,
+h4,
+h5,
+a,
+label,
+button,
+nav li {
+  font-family: "Limelight", sans-serif;
+}
+
+footer a,
+select {
+  font-family: "Neuton", sans-serif;
+}
+
+footer p {
+  font-size: 0.875rem;
+}
+
+@media (max-width: 640px) {
+  p,
+  li {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.valgt {
+  text-decoration: underline;
+}
+
+/* arrows i Frivilige */
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow_up {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+/* Arrow2 */
+.arrow2 {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow_up2 {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+/* White Arrow */
+.arrow3 {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow_up3 {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+/* Arrow 4 */
+.arrow4 {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow_up4 {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+/* Arrow 5 */
+.arrow5 {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow_up5 {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+/* Arrow White */
+
+.arrow_white {
+  border: solid rgb(255, 255, 255);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow_up_white {
+  border: solid rgb(255, 255, 255);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
